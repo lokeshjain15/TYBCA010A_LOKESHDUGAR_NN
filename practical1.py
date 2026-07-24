@@ -29,7 +29,7 @@ y = np.array([0, 0, 0, 1])
 # Initialize Parameters
 # -----------------------------
 learning_rate = 0.1
-epochs = 1000
+epochs = 100
 
 weights = np.zeros(2)
 bias = 0
@@ -41,7 +41,7 @@ print("=" * 60)
 # -----------------------------
 # Training
 # -----------------------------
-for epoch in range(epochs): 
+for epoch in range(epochs):
 
     print(f"\nEpoch {epoch + 1}")
 
